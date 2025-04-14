@@ -1,14 +1,13 @@
 # NewsDigest
 
-NewsDigest is an AI-powered news summarization application that generates concise and insightful summaries of news articles based on a user-provided topic. It leverages the OpenAI API to analyze and synthesize the news content, providing users with a quick overview of the latest news on their topics of interest.
+NewsDigest is an AI-powered news summarization application that generates concise and insightful summaries of news articles based on a user-provided topic. It leverages the OpenAI Assistants API to analyze and synthesize the news content, providing users with a quick overview of the latest news on their topics of interest.
 
 ## Features
 
-- Enter a topic of interest to retrieve relevant news articles
-- Utilizes the NewsAPI to fetch the latest news articles
-- Generates well-organized summaries for each article, including the title, author, source, and a brief synopsis
-- Provides a sentiment analysis of the overall news coverage, indicating the prevailing sentiment (positive, negative, or neutral)
-- User-friendly interface powered by Streamlit for easy interaction
+- Retrieve real-time news articles on any user-specified topic via the NewsAPI
+- Leverage OpenAI's Assistants API to generate structured article summaries (title, author, source, summary, link)
+- Perform sentiment analysis (positive/negative/neutral) on the overall news coverage for the topic
+- Interactive web interface built with Streamlit for easy topic input and results display
 
 ## Installation
 
